@@ -1,20 +1,20 @@
 package c2ct.sample.pro2;
 
 public class Cons2 extends Cons{
-	@Override
-	Cons() {
+	//@Override
+	Cons2() {
 		System.out.println("normal");
 		
 	}
-	 Cons(int a) {
+	 Cons2(int a) {
 		System.out.println("intiger: " +a);
 	
 	}
-	Cons(float b)
+	Cons2(float b)
 	{
 		System.out.println("float: "+b);
 	}
-	Cons(int a, float b, int c) {
+	Cons2(int a, float b, int c) {
 		System.out.println("2 intiger: "+a +" " +b+" "+c);
 	}
 }
